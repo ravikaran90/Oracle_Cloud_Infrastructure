@@ -1,9 +1,0 @@
-name: first-job
-on: push
-jobs:
-  general-job:
-    runs-on:ubuntu-latest
-    steps:
-      - name: Checking out the contents of the Repository
-        uses: actions/checkout@v4
-      - run: echo "$(cat file.txt)"
